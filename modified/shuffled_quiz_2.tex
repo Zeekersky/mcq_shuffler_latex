@@ -1,0 +1,241 @@
+\documentclass[10pt, letterpaper]{article}
+
+\oddsidemargin -0.25in
+\evensidemargin -0.25in
+\marginparwidth 20pt
+\marginparsep 10pt
+\topmargin -0.46in
+\headsep 0pt
+\textheight 9.5in
+\textwidth 7.0in
+
+% some very useful LaTeX packages include:
+\usepackage{cite}
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{bm}
+\usepackage{epsfig}
+\usepackage{times}
+\usepackage{color}
+\usepackage[normalem]{ulem}
+%\usepackage{url}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{rotating}
+\usepackage{mathabx}
+\usepackage{tabularx}
+%\usepackage{ulem}		%package to underline (\uline, \uuline, \uwave), strike-through (\sout), and masking the text (\xout)
+%\usepackage{yhmath}		%package for bigger delimiters and wider accents
+%\usepackage{marvosym}	%package that provides various new symbols. For documentation see 106henlich_MarVoSym.pdf in refs\miscellaneous
+%\usepackage{../latexStyles/clrscode_mod}
+\usepackage[]{authblk}
+\usepackage{braket}
+\usepackage[inline]{enumitem}
+
+\usepackage[printwatermark]{xwatermark}
+\usepackage{xcolor}
+\usepackage{transparent}
+%\newwatermark[allpages,color=gray!10,angle=0,scale=5,xpos=0,ypos=0]{SAMAR}
+\newwatermark[allpages,angle=0,scale=2,xpos=0,ypos=0]{\transparent{0.08}}
+
+% "box" symbols at end of proofs
+\def\IEEEQEDclosed{\mbox{\rule[0pt]{1.3ex}{1.3ex}}} % for a filled box
+% for an open box instead that will just fit around a closed one
+\def\IEEEQEDopen{{\setlength{\fboxsep}{0pt}\setlength{\fboxrule}{0.2pt}\fbox{\rule[0pt]{0pt}{1.3ex}\rule[0pt]{1.3ex}{0pt}}}}
+
+\def\@begintheorem#1#2{\par\bgroup{\scshape #1\ #2. }\it\ignorespaces}
+\def\@opargbegintheorem#1#2#3{\par\bgroup%
+   {\scshape #1\ #2\ ({\upshape #3}). }\it\ignorespaces}
+\def\@endtheorem{\egroup}
+
+\def\proof{\par{\it Proof:} \ignorespaces}
+\def\endproof{\hspace*{\fill}~\IEEEQEDclosed\par}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{pavikc}{\textbf{Corollary}}
+\newtheorem{pavikl}{\textbf{Lemma}}
+\newtheorem{pavikt}{\textbf{Theorem}}
+\newtheorem{pavikd}{\textbf{Definition}}
+\newtheorem{pavikp}{\textbf{Proposition}}
+\newcommand{\argmin}{\operatornamewithlimits{argmin}}
+\newcommand{\argmax}{\operatornamewithlimits{argmax}}
+
+\newcommand{\pd}[2]{\frac{\partial#1}{\partial#2}}
+\newcommand{\pdd}[2]{\frac{\partial^2#1}{\partial#2^{2}}}
+\newcommand{\dpd}[2]{\dfrac{\partial#1}{\partial#2}}
+\newcommand{\dpdd}[2]{\dfrac{\partial^2#1}{\partial#2^{2}}}
+\newcommand{\halfrac}{\frac{1}{2}}
+
+\newcommand{\todo}{\textcolor{red}}
+\newcommand{\eat}[1]{}
+
+\interdisplaylinepenalty=2500
+\renewcommand{\arraystretch}{1.5}
+
+\renewcommand{\vec}[1]{\mathbf{#1}}
+%\let\oldhat\hat
+%\renewcommand{\hat}[1]{\oldhat{\mathbf{#1}}}
+
+\begin{document}
+
+\title{Quiz - XX}
+\author{CSXXX}
+%\affil[1]{Affiliation}
+\date{}
+
+\maketitle
+\vspace{-0.25in}
+
+
+\textbf{Note}:
+\begin{enumerate}
+\item Use of cellphones/calculators is strictly prohibited. Switch them off.  
+\item For each question, circle at most one option. In case of multiple correct choices, circle the most appropriate one.
+\item Multiple/ambiguous choices will not be graded. {\let\thefootnote\relax\footnote{SAMPLE\_PAPER}}
+\item Correct answer fetches +5 marks and incorrect answer fetches -2 marks.
+\item You are free to make any reasonable assumption that you may need to logically answer a question.
+\end{enumerate}
+\vspace{-0.25in}
+\begin{center}
+\line(1,0){450}
+\end{center}
+
+
+
+
+
+\begin{enumerate}\item Given two equivalence relations $\sim_1, \sim_2$ on a set $S$, define a relation $\sim_3$ on S as: $a \sim_3 b$ if $a \sim_1 b$ and $a \sim_2 b$. Then $\sim_3$ is\\
+Ans:
+
+\begin{enumerate*}\item  4		
+	
+\item  2 		
+	
+\item  3		
+	
+\item  1		
+	
+\item  5 \eat{*}
+
+\end{enumerate*}
+
+
+\item The vertex-connectivity, the edge-connectivity and the chromatic number of the following graph are:
+\begin{figure*}[h]
+\centering
+\end{figure*}\\
+Ans:
+
+\begin{enumerate*}\item  3		
+	
+\item  2 \eat{*}
+	
+\item  4		
+	
+\item  1		
+	
+\item  5
+
+\end{enumerate*}
+
+
+\item The number of surjections from the set $\{1, 2, 3, 4, 5 \}$ to the set $\{a, b, c\}$ is\\
+Ans:
+
+\begin{enumerate*}\item  4		
+	
+\item  2 		
+	
+\item  1		
+	
+\item  3		
+	
+\item  5 \eat{*}
+
+\end{enumerate*}
+
+
+\item Let $\cal{G}$ be the set of all simple undirected finite graphs. Define relation $\sim$ on $\cal{G}$ as $G_1 \sim G_2$ if $G_1$ is homomorphic to $G_2$. The relation $\sim$ is: (i)~reflexive (ii)~symmetric (iii)~transitive\\
+Ans:
+
+\begin{enumerate*}\item  4 \eat{*}
+	
+\item  1		
+	
+\item  5
+
+\item  2 		
+	
+\item  3		
+	
+\end{enumerate*}
+
+
+\item Define the relation $\sim$ on $\mathbb{R}^2$ as $(x_1, y_1) \sim (x_2, y_2)$ if $max\{|x_1|, |y_1|\} = max\{|x_2|,  |y_2|\}$. Here $|x|$ denotes the absolute value of $x$. What do the equivalence classes of $(\mathbb{R}^2, \sim)$ look like?\\
+Ans:
+
+\begin{enumerate*}\item  5 \eat{*}
+
+\item  3		
+	
+\item  2 		
+	
+\item  4		
+	
+\item  1		
+	
+\end{enumerate*}
+
+
+\item \sout{There are four possible grades in a course with 20 students, viz., A, B, C, D. How may distinct grade distributions are possible? A grade distribution is a tuple $(x_1, x_2, x_3, x_4)$ such that $x_i \in \mathbb{N}, 0 < x_i < 100 , 1 \leq i \leq 4, \Sigma_{i=1}^4 x_i = 100$.} \\
+Ans:
+
+\begin{enumerate*}\item  3		
+	
+\item  2 		
+	
+\item  4		
+	
+\item  1		
+	
+\item  5 \eat{*}
+
+\end{enumerate*}
+
+\item Let $S$ be the set of all $3 \times 3$ matrices with entries from $\mathbb{R}$. Define the relation $\sim$ on $S$ as $A \sim B$ if $B = AR$ for some $R \in S$ with non-zero determinant. The relation $\sim$ is: (i)~reflexive, (ii)~symmetric, (iii)~transitive, (iv)~an equivalence relation?\\
+Ans:
+\begin{enumerate*}
+	\item 1		
+	\item 2 		
+	\item 3		
+	\item 4		
+	\item 5 \eat{*}
+\end{enumerate*}
+\item If there exists a graph homomorphism from $G$ to $H$, then the chromatic numbers of $G$ and $H$ are related as\\
+Ans:
+\begin{enumerate*}
+	\item 1		
+	\item 2 		
+	\item 3		
+	\item 4		
+	\item 5 \eat{*}
+\end{enumerate*}
+\item Define a relation $\sim$ on $\mathbb{R}^2$ as $(a, b) \sim (c, d)$ if the determinant of the matrix $\left [ \begin{matrix} a & c \\ b & d   \end{matrix} \right ]$ is greater than or equal to 0. The relation $\sim$ is: (i)~reflexive, (ii)~symmetric, (iii)~transitive, (iv)~an equivalence relation?\\
+Ans:
+\begin{enumerate*}
+	\item 1		
+	\item 2 		
+	\item 3		
+	\item 4		
+	\item 5 \eat{*}
+\end{enumerate*}
+	
+
+
+\end{enumerate}
+
+\end{document}
+
