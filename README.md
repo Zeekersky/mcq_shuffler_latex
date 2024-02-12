@@ -17,15 +17,17 @@ Usage:
 
 4. Run the Script:
 
-   python randomized_mcq.py 5 2
+   Keep the original Latex file with question in 'source' folder. P.S.: Use given templete in 'source' folder.
 
-   where 5 is the number of MCQ question and 2 is the number of different set you want to make.
+   Run command: python randomized_mcq.py 5 2
+
+   where 5 is the number of MCQ question and 2 is the number of different set you want to generate.
 
 5. Output:
 
    The shuffled quizzes will be generated in the 'modified' directory.
 
-Project Structure:
+Folder Structure:
 -------------------
 - source: Contains the original LaTeX files with questions.
 - modified: Stores the output shuffled quizzes.
