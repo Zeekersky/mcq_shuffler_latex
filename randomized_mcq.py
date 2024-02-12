@@ -55,8 +55,6 @@ if len(matches) >= 2:
         questions_not_need_shuffle.append(questions[i])
 
     all_permutations = list(itertools.permutations(questions_need_shuffle))
-    print(f'Total number of different set of questions (upto {len(all_permutations)}) to generate: ', end="")
-    # num_permutations = int(input())
     selected_permutations = random.sample(all_permutations, num_permutations)
     set_number = 0
 
