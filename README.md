@@ -8,7 +8,7 @@ Usage:
 -----------
 1. Clone the Repository:
 
-   git clone https://github.com/Zeekersky/mcq_shuffler_latex.git
+   git clone https://github.com/Zeekersky/mcq_shuffler_latex.git     
    cd mcq_shuffler_latex
 
 3. Install Dependencies:
