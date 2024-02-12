@@ -8,20 +8,20 @@ Usage:
 -----------
 1. Clone the Repository:
 
-   git clone [https://github.com/your-username/latex-quiz-shuffler.git](https://github.com/Zeekersky/mcq_shuffler_latex.git)
+   git clone https://github.com/Zeekersky/mcq_shuffler_latex.git
    cd mcq_shuffler_latex
 
-2. Install Dependencies:
+3. Install Dependencies:
 
    The script uses Python. Make sure you have Python installed on your machine.
 
-3. Run the Script:
+4. Run the Script:
 
    python randomized_mcq.py 5 2
 
    where 5 is the number of MCQ question and 2 is the number of different set you want to make.
 
-4. Output:
+5. Output:
 
    The shuffled quizzes will be generated in the 'modified' directory.
 
